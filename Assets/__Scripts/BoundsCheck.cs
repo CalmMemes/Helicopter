@@ -66,7 +66,6 @@ public class BoundsCheck : MonoBehaviour
         }
     }
 
-    //Рисует границы в панели Scene c помощью OnDrawGizmos()
     void OnDrawGizmos()
     {
         if (!Application.isPlaying) return;
